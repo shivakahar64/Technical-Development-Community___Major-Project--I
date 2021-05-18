@@ -102,7 +102,8 @@ header("location: ../ID-10/user_login.php"); // Redirecting To Home Page
                             <ul id="nav">
                                 <li class="cool-link-1"><a href="science.html"><i class="fa fa-home" aria-hidden="true"></i> USER ID :  <?php 
                             
-                            $conn = mysqli_connect('localhost', 'u657949784_tech_develop', 'tech@1234', 'u657949784_tech_develop');
+                            $conn = mysqli_connect('localhost', '', '', '');
+
                             if($conn -> connect_error){
                                     die("Connection Failed!".$conn->connect_error);
                                 } 

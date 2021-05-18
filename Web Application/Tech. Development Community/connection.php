@@ -3,7 +3,8 @@
                 $Email = "";
                 $Password = "";
                 $errors = array();
-                $db = mysqli_connect('localhost', 'u657949784_tech_develop', 'tech@1234', 'u657949784_tech_develop');
+                $db = mysqli_connect('localhost', '', '', '');
+
                 
                     if(isset($_POST['Registration_Button'])) {
                             $Name = mysqli_real_escape_string($db,  $_POST ['name']);

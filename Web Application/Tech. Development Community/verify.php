@@ -10,7 +10,7 @@
     $Email = $_POST['email'];
     $Password = $_POST['pass'];
     
-    $conn = mysqli_connect('localhost', 'u657949784_tech_develop', 'tech@1234', 'u657949784_tech_develop');
+    $conn = mysqli_connect('localhost', '', '', '');
   
     $query = "SELECT Email, Password from Registration where Email=? AND Password=? LIMIT 1";
   

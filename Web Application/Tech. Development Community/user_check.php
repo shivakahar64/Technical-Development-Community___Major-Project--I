@@ -1,6 +1,6 @@
 <?php
   
-    $conn = mysqli_connect('localhost', 'u657949784_tech_develop', 'tech@1234', 'u657949784_tech_develop');
+    $conn = mysqli_connect('localhost', '', '', '');
     session_start();
     $user_check = $_SESSION['client_user'];
     $pay_dt = $_SESSION['Curr_d_t'];
