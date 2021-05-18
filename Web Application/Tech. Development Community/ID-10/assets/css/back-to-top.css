@@ -1,0 +1,26 @@
+/*===== BACK TO TOP =====*/
+.back-to-top {
+    font-size: 20px;
+    color: #000;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%) !important;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    display: none; }
+    .back-to-top:hover {
+      color: #fff;
+      box-shadow: 0px 20px 45px #000;
+      background-color: #f7b42c;
+      background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%) !important; }

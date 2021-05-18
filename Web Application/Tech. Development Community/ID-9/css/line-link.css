@@ -1,0 +1,13 @@
+.cool-link-1::after {
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: width .3s;
+  }
+  
+  .cool-link-1:hover::after {
+    width: 100%;
+    transition: width .3s;
+  }
+  /* ============================ */

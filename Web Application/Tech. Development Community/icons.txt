@@ -1,0 +1,23 @@
+Home : <i class="fa fa-home" aria-hidden="true"></i> 
+About : <i class="fa fa-id-card" aria-hidden="true"></i> 
+Blogs : <i class="fa fa-rss" aria-hidden="true"></i> 
+Contact : <i class="fa fa-phone" aria-hidden="true"></i> 
+Users : <i class="fa fa-user-o" aria-hidden="true"></i> 
+Satting : <i class="fa fa-cogs" aria-hidden="true"></i> 
+Android : <i class="fa fa-android" aria-hidden="true"></i> 
+Game : <i class="fa fa-gamepad" aria-hidden="true"></i> 
+Media : <i class="fa fa-files-o" aria-hidden="true"></i> 
+Finance : <i class="fa fa-money" aria-hidden="true"></i> 
+Admin : <i class="fa fa-user-circle" aria-hidden="true"></i> 
+Email : <i class="fa fa-envelope" aria-hidden="true"></i> 
+Course : <i class="fa fa-book" aria-hidden="true"></i> 
+
+Square Icon -
+
+Facebook - <i class="fa fa-facebook-square" aria-hidden="true"></i> 
+Twitter - <i class="fa fa-twitter-square" aria-hidden="true"></i> 
+Instagram - <i class="fa fa-instagram" aria-hidden="true"></i> 
+Google+ - <i class="fa fa-google-plus-square" aria-hidden="true"></i> 
+YouTube - <i class="fa fa-youtube-square" aria-hidden="true"></i> 
+Github - <i class="fa fa-github-square" aria-hidden="true"></i> 
+Pinterest - <i class="fa fa-pinterest-square" aria-hidden="true"></i> 

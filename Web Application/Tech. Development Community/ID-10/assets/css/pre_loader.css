@@ -1,0 +1,164 @@
+#loader { 
+    width: 90px;
+    height: 90px;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+        animation: spin 5s linear infinite; 
+        }   
+        @keyframes spin { 
+                            0% {
+                                transform: rotate(0deg);
+                              }
+                            100% { 
+                                transform: rotate(360deg); 
+                            } 
+                        } 
+
+
+/*------------------------------------------------------------ Pre-Loader Section ------------------------------------------------------------*/
+              
+            .preloader
+              {
+                background-color: #f7f7f7; 
+                width: 100%;
+                height:100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0%;
+                z-index: 999999;
+                -webkit-transition: .6s;
+                -o-transition: .6s;
+                transition: .6s;
+                margin: 0 auto;
+              }
+              .preloader .preloader-circle
+                {
+                    width: 90px;
+                    height: 90px;
+                    position: relative;
+                    border-style:solid; 
+                    bottom: 30%;
+                    border-width:3px;
+                    border-top-color:#8f1bdc;
+                    border-bottom-color:transparent;
+                    border-left-color:transparent;
+                    border-right-color:transparent;
+                    z-index:10;
+                    border-radius:50%;
+                    -webkit-box-shadow:0 1px 5px 0 rgba(35,181,185,0.15);
+                    box-shadow:0 1px 5px 0 rgba(35,181,185,0.15);
+                    background-color:#ffffff;
+                    -webkit-animation:zoom 2000ms infinite ease;
+                    animation:zoom 2000ms infinite ease;
+                    -webkit-transition:.6s;
+                    -o-transition:.6s;
+                    transition:.6s;
+                }
+                .align-items-center
+                {
+                    -ms-flex-align:center!important;
+                    align-items:center!important;
+                }
+                .d-flex
+                {
+                    display:-ms-flexbox!important;display:flex!important;
+                }
+                .justify-content-center
+                {
+                    -ms-flex-pack:center!important;justify-content:center!important;
+                }
+                .position-relative
+                {
+                    position:relative!important;
+                }
+                .preloader .preloader-circle2
+                {
+                    border-top-color:#0078ff;
+                }
+                .preloader .preloader-img
+                {
+                    position:absolute;
+                    top:50%;
+                    z-index:200;
+                    left:0;
+                    right:0;
+                    margin:0 auto;
+                    text-align:center;
+                    display:inline-block;
+                    -webkit-transform:translateY(-100%);
+                    -ms-transform:translateY(-50%);
+                    transform:translateY(-50%);
+                    padding-top:6px;
+                    -webkit-transition:.6s;
+                    -o-transition:.6s;
+                    transition:.6s;
+                }
+                .preloader .preloader-img img
+                {
+                    max-width:55px;
+                }
+                .preloader .pere-text strong
+                {
+                    font-weight:800;
+                    color:#dca73a;
+                    text-transform:uppercase;
+                }
+                @-webkit-keyframes zoom
+                {
+                    0%
+                    {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                        -webkit-transition: .6s;
+                        -o-transition: .6s;
+                        transition: .6s
+                    }
+                    100%
+                    {
+                        -webkit-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                        -webkit-transition:.6s;
+                        -o-transition:.6s;
+                        transition:.6s
+                    }
+                }
+                @keyframes zoom
+                {
+                    0%
+                    {
+                        -webkit-transform:rotate(0deg);
+                        transform:rotate(0deg);
+                        -webkit-transition:.6s;
+                        -o-transition:.6s;
+                        transition:.6s
+                    }
+                    100%
+                    {
+                        -webkit-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                        -webkit-transition:.6s;
+                        -o-transition:.6s;
+                        transition:.6s
+                    }
+                }
+                #proloader-run   /* Image Spin Inside Pre-Loader */
+                { 
+                    animation: run 5s linear infinite; 
+                }
+                @keyframes run 
+                { 
+                100% 
+                    {
+                        transform: rotate(0deg);
+                    }
+                0% 
+                    { 
+                        transform: rotate(360deg); 
+                    } 
+                } 
+
+
+/* ------------------------------------------------------Pre Loader End ---------------------------------------------------------------------*/
